@@ -12,23 +12,27 @@ class Solution {
             adj[v].push_back({u, wt});
         }
         
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        set<pair<int, int>> st;
         vector<int> dist(V, 1e9);
         
         dist[src] = 0;
-        pq.push({0, src});
+        st.insert({0, src});
         
-        while(!pq.empty()) {
-            auto [dis, node] = pq.top();
-            pq.pop();
+        while(!st.empty()) {
+            auto [dis, node] = *(st.begin());
+            st.erase({dis, node});
             
             if(dis > dist[node])
                 continue;
                 
             for(auto [it, edgeWt] : adj[node]) {
                 if(dis + edgeWt < dist[it]) {
+                    if(dist[it] != 1e9) {
+                        st.erase({dist[it], it});
+                    }
+                    
                     dist[it] = dis + edgeWt;
-                    pq.push({dist[it], it});
+                    st.insert({dist[it], it});
                 }
             }
         }
