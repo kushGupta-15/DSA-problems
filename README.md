@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/kushGupta-15/DSA-problems/tree/main/0127-word-ladder/) | Hard |
+| [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -91,4 +93,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
 <!---LeetCode Topics End-->
