@@ -1,6 +1,7 @@
 class DisjointSet {
     vector<int> size, parent;
 public:
+    // constructor call - resize the vector created to access index
     DisjointSet(int n) {
         size.resize(n+1);
         parent.resize(n+1, 0);
@@ -9,14 +10,16 @@ public:
         }
     }
     
+    // find ultimate parent 
     int findUParent(int node) {
         if(parent[node] == node) {
             return node;
         }
         
-        return findUParent(parent[node]);
+        return parent[node] = findUParent(parent[node]);
     }
     
+    // adds the smallest edge component to the bigger edge component 
     void unionBySize(int u, int v) {
         int ulp_u = findUParent(u);
         int ulp_v = findUParent(v);
@@ -39,6 +42,8 @@ class Solution {
   public:
     int spanningTree(int V, vector<vector<int>>& edges) { 
         vector<pair<int, pair<int, int>>> st;
+        
+        // new data structure created 
         for(vector<int>& edge : edges) {
             int u = edge[0];
             int v = edge[1];
@@ -47,6 +52,7 @@ class Solution {
             st.push_back({wt, {u, v}});
         }
         
+        // sort by weight
         sort(st.begin(), st.end());
         
         int mstWt = 0;
@@ -56,6 +62,7 @@ class Solution {
             int u = it.second.first;
             int v = it.second.second;
             
+            // if not same ultimate parent means its not included in data structure so add it and increase the mst by the wt
             if(ds.findUParent(u) != ds.findUParent(v)) {
                 mstWt += wt;
                 ds.unionBySize(u, v);
