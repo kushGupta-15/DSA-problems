@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/kushGupta-15/DSA-problems/tree/main/0127-word-ladder/) | Hard |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
+| [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 ## Bidirectional Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -114,9 +116,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/kushGupta-15/DSA-problems/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 <!---LeetCode Topics End-->
