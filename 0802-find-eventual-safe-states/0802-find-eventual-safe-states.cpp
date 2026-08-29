@@ -2,37 +2,44 @@ class Solution {
 public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int V = graph.size();
-        vector<int> visited(V, 0), pathVisited(V, 0), check(V, 0), safeNodes;
-        
+
+        vector<vector<int>> adjRev(V);
+        vector<int> indegree(V, 0);
+
         for(int i = 0; i < V; i++) {
-            if(!visited[i]) {
-                dfs(i, visited, pathVisited, check, graph);
+            for(auto node : graph[i]) {
+                adjRev[node].push_back(i);
+                indegree[i]++;
             }
         }
 
+        queue<int> q;
+
         for(int i = 0; i < V; i++) {
-            if(check[i] == 1)
-                safeNodes.push_back(i);
+            if(indegree[i] == 0) {
+                q.push(i);
+            }
         }
+
+        vector<int> safeNodes;
+
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+
+            safeNodes.push_back(node);
+
+            for(auto it : adjRev[node]) {
+                indegree[it]--;
+
+                if(indegree[it] == 0) {
+                    q.push(it);
+                }
+            }
+        }
+
+        sort(safeNodes.begin(), safeNodes.end());
 
         return safeNodes;
-    }
-private:
-    void dfs(int node, vector<int>& visited, vector<int>& pathVisited, vector<int>& check, vector<vector<int>>& graph) {
-        visited[node] = 1;
-        pathVisited[node] = 1;
-
-        for(auto it : graph[node]) {
-            if(!visited[it]) {
-                dfs(it, visited, pathVisited, check, graph);
-                if(pathVisited[it] == 1)
-                    return;
-            } else if(pathVisited[it] == 1) {
-                return;
-            }
-        }
-
-        check[node] = 1;
-        pathVisited[node] = 0;
     }
 };
