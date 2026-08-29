@@ -3,17 +3,6 @@
 using namespace std;
 
 class Solution {
-    void dfs(int node, vector<bool>& visited, stack<int>& st, vector<vector<int>>& adjList) {
-        visited[node] = true;
-
-        for(auto it : adjList[node]) {
-            if(!visited[it]) {
-                dfs(it, visited, st, adjList);
-            }
-        }
-
-        st.push(node);
-    }
   public:
     vector<int> topoSort(int V, vector<vector<int>>& edges) {
         vector<vector<int>> adjList(V, vector<int>());
@@ -25,23 +14,37 @@ class Solution {
             adjList[u].push_back(v);
         }
 
-        vector<bool> visited(V, false);
-        stack<int> st;
-
+        vector<int> indegree(V, 0);
+        
         for(int i = 0; i < V; i++) {
-            if(!visited[i]) {
-                dfs(i, visited, st, adjList);
+            for(auto it : adjList[i]) {
+                indegree[it]++;
+            }
+        }
+        
+        queue<int> q;
+        
+        for(int i = 0; i < V; i++) {
+            if(indegree[i] == 0) {
+                q.push(i);
             }
         }
 
         vector<int> topo;
-        while(!st.empty()) {
-            int node = st.top();
-            st.pop();
-
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+            
             topo.push_back(node);
+            
+            for(auto it : adjList[node]) {
+                indegree[it]--;
+                if(indegree[it] == 0) {
+                    q.push(it);
+                }
+            }
         }
-
+        
         return topo;
     }
 };
