@@ -1,38 +1,53 @@
 class Solution {
   public:
     bool isCyclic(int V, vector<vector<int>> &edges) {
-        vector<vector<int>> adj(V, vector<int>());
+        vector<int> topo = topoSort(V, edges);
         
-        for(vector<int>& edge : edges) {
-            adj[edge[0]].push_back(edge[1]);
-        }
-        
-        vector<bool> visited(V, false), pathVisited(V, false);
-        for(int i = 0; i < V; i++) {
-            if(!visited[i]) {
-                if(dfs(i, visited, pathVisited, adj) == true)
-                    return true;
-            }
-        }
-        
-        return false;
+        return (topo.size() != V);
     }
     
   private:
-    bool dfs(int node, vector<bool>& visited, vector<bool>& pathVisited, vector<vector<int>>& adj) {
-        visited[node] = true;
-        pathVisited[node] = true;
-        
-        for(auto& it : adj[node]) {
-            if(!visited[it]) {
-                if(dfs(it, visited, pathVisited, adj) == true)
-                    return true;
-            } else if(pathVisited[it] == true) {
-                return true;
+    vector<int> topoSort(int V, vector<vector<int>>& edges) {
+        vector<vector<int>> adjList(V, vector<int>());
+
+        for(vector<int>& edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+
+            adjList[u].push_back(v);
+        }
+
+        vector<int> indegree(V, 0);
+
+        for(int i = 0; i < V; i++) {
+            for(auto it : adjList[i]) {
+                indegree[it]++;
             }
-        } 
-        
-        pathVisited[node] = false;
-        return false;
+        }
+
+        queue<int> q;
+
+        for(int i = 0; i < V; i++) {
+            if(indegree[i] == 0) {
+                q.push(i);
+            }
+        }
+
+        vector<int> topo;
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+
+            topo.push_back(node);
+
+            for(auto it : adjList[node]) {
+                indegree[it]--;
+                if(indegree[it] == 0) {
+                    q.push(it);
+                }
+            }
+        }
+
+        return topo;
     }
 };
