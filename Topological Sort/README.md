@@ -49,7 +49,7 @@ Examples:
 
 ### 🏢 Topic Tags
 
-> `Graph` `topological-sort`
+> `Graph` `Topological Sort`
 
 ---
 
