@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1232-check-if-it-is-a-straight-line](https://github.com/kushGupta-15/DSA-problems/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0319-bulb-switcher](https://github.com/kushGupta-15/DSA-problems/tree/main/0319-bulb-switcher/) | Medium |
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
 | [0837-new-21-game](https://github.com/kushGupta-15/DSA-problems/tree/main/0837-new-21-game/) | Medium |
+| [1232-check-if-it-is-a-straight-line](https://github.com/kushGupta-15/DSA-problems/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/kushGupta-15/DSA-problems/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Sorting
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0149-max-points-on-a-line](https://github.com/kushGupta-15/DSA-problems/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
+| [1232-check-if-it-is-a-straight-line](https://github.com/kushGupta-15/DSA-problems/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 ## Convex Hull
 | Problem Name | Difficulty |
 | ------- | ------- |
