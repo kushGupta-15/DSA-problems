@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0263-ugly-number](https://github.com/kushGupta-15/DSA-problems/tree/main/0263-ugly-number/) | Easy |
 | [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/kushGupta-15/DSA-problems/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Sorting
