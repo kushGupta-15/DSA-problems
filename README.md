@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1232-check-if-it-is-a-straight-line](https://github.com/kushGupta-15/DSA-problems/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/kushGupta-15/DSA-problems/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/kushGupta-15/DSA-problems/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
