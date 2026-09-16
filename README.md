@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/kushGupta-15/DSA-problems/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0258-add-digits](https://github.com/kushGupta-15/DSA-problems/tree/main/0258-add-digits/) | Easy |
 | [0263-ugly-number](https://github.com/kushGupta-15/DSA-problems/tree/main/0263-ugly-number/) | Easy |
+| [0319-bulb-switcher](https://github.com/kushGupta-15/DSA-problems/tree/main/0319-bulb-switcher/) | Medium |
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
 | [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/kushGupta-15/DSA-problems/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
@@ -162,4 +163,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0258-add-digits](https://github.com/kushGupta-15/DSA-problems/tree/main/0258-add-digits/) | Easy |
+## Brainteaser
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0319-bulb-switcher](https://github.com/kushGupta-15/DSA-problems/tree/main/0319-bulb-switcher/) | Medium |
 <!---LeetCode Topics End-->
