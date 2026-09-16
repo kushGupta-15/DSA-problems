@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0837-new-21-game](https://github.com/kushGupta-15/DSA-problems/tree/main/0837-new-21-game/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/kushGupta-15/DSA-problems/tree/main/0263-ugly-number/) | Easy |
 | [0319-bulb-switcher](https://github.com/kushGupta-15/DSA-problems/tree/main/0319-bulb-switcher/) | Medium |
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
+| [0837-new-21-game](https://github.com/kushGupta-15/DSA-problems/tree/main/0837-new-21-game/) | Medium |
 | [1927-sum-game](https://github.com/kushGupta-15/DSA-problems/tree/main/1927-sum-game/) | Medium |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/kushGupta-15/DSA-problems/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
 ## Sorting
@@ -167,4 +169,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0319-bulb-switcher](https://github.com/kushGupta-15/DSA-problems/tree/main/0319-bulb-switcher/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0837-new-21-game](https://github.com/kushGupta-15/DSA-problems/tree/main/0837-new-21-game/) | Medium |
+## Probability and Statistics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0837-new-21-game](https://github.com/kushGupta-15/DSA-problems/tree/main/0837-new-21-game/) | Medium |
 <!---LeetCode Topics End-->
