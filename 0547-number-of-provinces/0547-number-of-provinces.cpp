@@ -1,37 +1,38 @@
 class Solution {
-public:
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int V = isConnected.size();
+    void findProvince(int city, vector<int>& visited, vector<vector<int>>& adjCities) {
+        visited[city] = 1;
 
-        vector<bool> visited(V, false);
-        int count = 0;
-
-        for(int i = 0; i < V; i++) {
-            if(!visited[i]) {
-                count++;
-                bfs(i, visited, isConnected);
+        for(int adjCity : adjCities[city]) {
+            if(!visited[adjCity]) {
+                findProvince(adjCity, visited, adjCities);
             }
         }
-
-        return count;
     }
+public:
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int totalCities = isConnected.size();
 
-private:
-    void bfs(int node, vector<bool>& visited, vector<vector<int>>& isConnected) {
-        queue<int> q;
-        q.push(node);
-        visited[node] = true;
+        vector<vector<int>> adjCities(totalCities+1);
 
-        while(!q.empty()) {
-            int curr = q.front();
-            q.pop();
-
-            for(int i = 0; i < isConnected.size(); i++) {
-                if(isConnected[curr][i] == 1 && !visited[i]) {
-                    visited[i] = true;
-                    q.push(i);
+        for(int a = 0; a < totalCities; a++) {
+            for(int b = 0; b < totalCities; b++) {
+                if(isConnected[a][b] == 1) {
+                    adjCities[a].push_back(b);
+                    adjCities[b].push_back(a);
                 }
             }
         }
+
+        vector<int> visited(totalCities, 0);
+
+        int provinces = 0;
+        for(int city = 0; city < totalCities; city++) {
+            if(!visited[city]) {
+                provinces += 1;
+                findProvince(city, visited, adjCities);
+            }
+        }
+
+        return provinces;
     }
 };
