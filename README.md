@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
+| [0547-number-of-provinces](https://github.com/kushGupta-15/DSA-problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/kushGupta-15/DSA-problems/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
+| [0547-number-of-provinces](https://github.com/kushGupta-15/DSA-problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/kushGupta-15/DSA-problems/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -30,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
+| [0547-number-of-provinces](https://github.com/kushGupta-15/DSA-problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/kushGupta-15/DSA-problems/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/kushGupta-15/DSA-problems/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
@@ -94,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
+| [0547-number-of-provinces](https://github.com/kushGupta-15/DSA-problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/kushGupta-15/DSA-problems/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
