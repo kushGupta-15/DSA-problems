@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/kushGupta-15/DSA-problems/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/kushGupta-15/DSA-problems/tree/main/0127-word-ladder/) | Hard |
+| [0130-surrounded-regions](https://github.com/kushGupta-15/DSA-problems/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/kushGupta-15/DSA-problems/tree/main/0130-surrounded-regions/) | Medium |
 | [0149-max-points-on-a-line](https://github.com/kushGupta-15/DSA-problems/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/0542-01-matrix/) | Medium |
@@ -93,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/kushGupta-15/DSA-problems/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
@@ -106,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/kushGupta-15/DSA-problems/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/kushGupta-15/DSA-problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
