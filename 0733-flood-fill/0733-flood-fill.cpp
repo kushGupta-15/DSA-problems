@@ -4,31 +4,33 @@ public:
         int m = image.size();
         int n = image[0].size();
 
-        int initialColor = image[sr][sc];
-
-        if(color == initialColor)
+        int original = image[sr][sc];
+        if(original == color) {
             return image;
-            
+        }
+
+
         queue<pair<int, int>> q;
+        vector<vector<int>> visited(m, vector<int>(n, 0));
         q.push({sr, sc});
-        image[sr][sc] = color;
+        visited[sr][sc] = 1;
 
         while(!q.empty()) {
-            auto [row, col] = q.front();
+            auto [r,c] = q.front();
             q.pop();
 
-            vector<pair<int, int>> directions = {{1, 0}, {0, -1}, {-1, 0}, {0,1}};
+            image[r][c] = color;
 
-            for(auto [r, c] : directions) {
-                int nr = r + row;
-                int nc = c + col;
+            vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+            for(auto& [dr, dc] : directions) {
+                int nr = r + dr;
+                int nc = c + dc;
 
-                if(nr >= 0 && nr < m && nc >= 0 && nc < n && image[nr][nc] == initialColor) {
+                if(nr >= 0 && nr < m && nc >= 0 && nc < n && image[nr][nc] == original && !visited[nr][nc]) {
                     q.push({nr, nc});
-                    image[nr][nc] = color;
+                    visited[nr][nc] = 1;
                 }
             }
-
         }
 
         return image;
