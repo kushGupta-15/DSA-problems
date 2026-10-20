@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/kushGupta-15/DSA-problems/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0994-rotting-oranges](https://github.com/kushGupta-15/DSA-problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/kushGupta-15/DSA-problems/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/kushGupta-15/DSA-problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1232-check-if-it-is-a-straight-line](https://github.com/kushGupta-15/DSA-problems/tree/main/1232-check-if-it-is-a-straight-line/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/kushGupta-15/DSA-problems/tree/main/1386-cinema-seat-allocation/) | Medium |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/kushGupta-15/DSA-problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Binary Search
