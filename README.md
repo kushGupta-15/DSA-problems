@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/kushGupta-15/DSA-problems/tree/main/0127-word-ladder/) | Hard |
+| [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0149-max-points-on-a-line](https://github.com/kushGupta-15/DSA-problems/tree/main/0149-max-points-on-a-line/) | Hard |
+| [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -80,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Binary Search
@@ -89,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/kushGupta-15/DSA-problems/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/kushGupta-15/DSA-problems/tree/main/1631-path-with-minimum-effort/) | Medium |
