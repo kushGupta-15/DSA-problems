@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/kushGupta-15/DSA-problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kushGupta-15/DSA-problems/tree/main/0210-course-schedule-ii/) | Medium |
+| [0542-01-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/kushGupta-15/DSA-problems/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0149-max-points-on-a-line](https://github.com/kushGupta-15/DSA-problems/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
+| [0542-01-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/0542-01-matrix/) | Medium |
 | [0587-erect-the-fence](https://github.com/kushGupta-15/DSA-problems/tree/main/0587-erect-the-fence/) | Hard |
 | [0721-accounts-merge](https://github.com/kushGupta-15/DSA-problems/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/kushGupta-15/DSA-problems/tree/main/0200-number-of-islands/) | Medium |
+| [0542-01-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/kushGupta-15/DSA-problems/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/kushGupta-15/DSA-problems/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -120,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0542-01-matrix](https://github.com/kushGupta-15/DSA-problems/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kushGupta-15/DSA-problems/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0837-new-21-game](https://github.com/kushGupta-15/DSA-problems/tree/main/0837-new-21-game/) | Medium |
 ## Shortest Path
